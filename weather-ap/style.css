@@ -118,6 +118,7 @@ h3.status {
     color: rgba(17, 10, 31, 0.998);
     background-color: #5d747795;
     width: 22%;
+    max-width: 50%;
     border-radius: 50px;
     
     
