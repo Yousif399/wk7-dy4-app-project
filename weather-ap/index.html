@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <search class="form-inline my-2 my-lg-0">
+                <input id="input" class="form-control mr-m-2" type="search" placeholder="Enter city name" aria-label="Search"
+                    spellcheck="true">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </search>
+        </div>
+        <div class="error">
+            <p>Make sure you entred the right city</p>
+        </div>
+        <div class="weather">
+            <img src="img/snow.png" width="400px" class="weather-icon">
+            <h3 class="status">Sunny</h3>
+            <h2 class="city"> Toronto</h2>
+            <h1 class="temp"> 22°C</h1>
+            <div class="details">
+                <div class="col"> 
+                    <img src="img/clouds.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/wind.png">
+                    <div>
+                        <p class="wind">20 km/h</p>
+                        <p>wind speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
