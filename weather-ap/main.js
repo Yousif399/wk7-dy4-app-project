@@ -24,6 +24,11 @@ async function checkWeather (city){
     console.log('ddddd',data.timezone);
     document.querySelector('.status').innerHTML = data.weather[0].main;
     document.querySelector('.city').innerHTML = data.name;
+    if (searchBox.value === 'israel'){
+        document.querySelector('.city').innerHTML = 'DID U MEAN SHIT'
+    }else if(searchBox.value === 'Israel') {
+        document.querySelector('.city').innerHTML = 'DID U MEAN SHIT'
+    }
     document.querySelector('.temp').innerHTML = Math.round(data.main.temp) + ' °C';
     document.querySelector('.humidity').innerHTML = data.main.humidity + '%';
     document.querySelector('.wind').innerHTML = Math.round(data.wind.speed) + 'km/h';

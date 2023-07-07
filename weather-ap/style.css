@@ -14,7 +14,7 @@ body{
     background-size:cover ;
 }   
 .card{
-    max-height: 700px;
+    max-height: 720px;
     width:100%;
     max-width: 670px;
     color: #000000;
@@ -115,12 +115,10 @@ h3.status {
     font-size: 50px;
     font-family:Arial, Helvetica, sans-serif;
     margin-bottom:30px;
+    padding: 10px 0px 10px 18px;
     color: rgba(17, 10, 31, 0.998);
     background-color: #5d747795;
-    width: 22%;
-    max-width: 50%;
+    width: 33%;
     border-radius: 50px;
-    
-    
     
 }
